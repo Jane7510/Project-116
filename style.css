@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Patrick+Hand&display=swap');
+
+h1 {
+    font-size: 35px !important;
+}
+
+.btn-info:hover {
+    background-color:steelblue;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px 2px 38px #ff80b3}
+    to {box-shadow: 1px 2px 38px #88d5fc}
+}
+
+body{
+    text-align: center;
+    background: rgb(247,194,215);
+background: linear-gradient(90deg, rgba(247,194,215,1) 27%, rgba(213,186,253,1) 61%);
+}
